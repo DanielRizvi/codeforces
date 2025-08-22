@@ -16,10 +16,10 @@ petya = 0
 for q in queries:
     index = d[q]
     #vasya index - no of comparisons 
-    v = d[q]
+    v = d[q] + 1
     #petya index - no of comparisons 
     p = n - d[q]
 
     vasya += v
     petya += p
-print(vasya, petya)
+print(vasya,petya)
